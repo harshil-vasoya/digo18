@@ -131,7 +131,7 @@ for (var i = 0; i < nav_bar.length; i++) {
 	</div>
 	<div class="navigation-bar-mobile">
 		<a href="index.html"  onclick="go_back()">Home</a>
-		<a href="product.html" onclick="go_back()">Products</a>
+		<a href="product.html" onclick="go_back()">Projects</a>
 
 		<a href="#"   onclick="go_back()">Contact</a>
 	</div>`
@@ -150,12 +150,11 @@ for (var i = 0; i < footer.length; i++) {
 		</div>
 	</div>
 	<div class="contact-box">
-		<div class="contact"> <a class="block" href="tel:9426998736"> <span class="fa-solid fa-phone mt-2"></span>&nbsp;+91
+		<div class="contact"> <a class="block" href="tel:9429796977"> <span class="fa-solid fa-phone mt-2"></span>&nbsp;+91
 		9426998736</a></i></div>
 		<div class="contact"><a class="block" href="mailto:superwax9@gmail.com"> <span
 		class="fa-solid fa-envelope mt-1"></span>&nbsp;&nbsp;superwax9@gmail.com </a></i></div>
-		<div class="contact"><a href="https://www.google.com/maps/place/22°17'25.2%22N+70°47'55.3%22E/@22.2903439,70.7942153,17z/data=!4m14!1m7!3m6!1s0x3bcb99a2716b0d81:0xb0038aa72de8a8ec!2sVidya+Nagar,+Adikmet,+Hyderabad,+Telangana!3b1!8m2!3d17.4065284!4d78.5139136!3m5!1s0x0:0x65d391488804dc3!7e2!8m2!3d22.2903392!4d70.7986996?hl=en" class="m-icon fa-solid fa-location-dot"> 
-		<span class="jugad">&nbsp;&nbsp;superwax9@gmail.com</span></a></div>
+		<div class="contact">
 	</div>
 </footer>`
 };

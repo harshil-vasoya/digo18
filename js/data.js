@@ -4,7 +4,7 @@ var data = [
 		img_name:"10x.png",
 		info : "50ml",
 		dis:"<BR><B><span>SUPER WAX POLISH</span> </B>Manufactured by SHIVAM INDUSTRIES",
-		price :"MRP=35.00" 
+		price :"MRP=25.00" 
 	},
 	{
 		product_id : 2,
@@ -27,7 +27,7 @@ var data = [
 		img_name:"1x.png",
 		info : "100 ml spray ",
 		dis:"<BR><B><span>SUPER WAX POLISH</span></b> Manufactured by SHIVAM INDUSTRIES",
-		price :"MRP=100.00" 
+		price :"MRP=75.00" 
 	},
 
 	{
@@ -40,9 +40,9 @@ var data = [
 	{
 		product_id : 6,
 		img_name:"11x.png",
-		info : "1ltr com",
+		info : "1ltr reg",
 		dis:"<BR><B><span>SUPER WAX POLIS </span></b>Manufactured by SHIVAM INDUSTRIES",
-		price : "MRP=260.00"
+		price : "MRP=345.00"
 	},
 	{
 		product_id : 7,
