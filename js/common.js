@@ -120,7 +120,7 @@ for (var i = 0; i < nav_bar.length; i++) {
 	<span class="brand-name">Shivam</span>
 	<div class="links">
 		<a href="index.html">Home</a>
-		<a href="product.html">products</a>
+		<a href="product.html">Products</a>
 		<a href="ContactUs.html">contact</a>
 	</div>
 	<div class="burger-btn">
@@ -131,7 +131,7 @@ for (var i = 0; i < nav_bar.length; i++) {
 	</div>
 	<div class="navigation-bar-mobile">
 		<a href="index.html"  onclick="go_back()">Home</a>
-		<a href="product.html" onclick="go_back()">Projects</a>
+		<a href="product.html" onclick="go_back()">Products</a>
 
 		<a href="#"   onclick="go_back()">Contact</a>
 	</div>`
