@@ -151,7 +151,7 @@ for (var i = 0; i < footer.length; i++) {
 	</div>
 	<div class="contact-box">
 		<div class="contact"> <a class="block" href="tel:9429796977"> <span class="fa-solid fa-phone mt-2"></span>&nbsp;+91
-		9426998736</a></i></div>
+		9429796977</a></i></div>
 		<div class="contact"><a class="block" href="mailto:superwax9@gmail.com"> <span
 		class="fa-solid fa-envelope mt-1"></span>&nbsp;&nbsp;superwax9@gmail.com </a></i></div>
 		<div class="contact">
