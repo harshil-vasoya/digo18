@@ -9,9 +9,11 @@
     color: #2C334B;
 }
 
-.single-product div img{
+.single-product img{
     width: 45%;
 }
+
+
 .single-product div h1{
     margin-top: 0.5rem;
 }

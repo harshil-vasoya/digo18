@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+/* outline: 1px solid greenyellow; 
+	background: rgb(0 10 0/0.1);  */
 }
 .navigation-bar{
 	width: 100vw;
@@ -58,7 +60,7 @@
 	background-color: var(--dark);
 	color: white;
 	display: none;
-    position: absolute;
+    position: fixed;
     flex-direction: column;
 	align-items: center;
     justify-content: space-around;
@@ -79,15 +81,75 @@
 }
 
 
+.my-1 {
+    margin: 1rem 0;
+}
+
+.title-1::before {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    right: 0;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(45deg, #a67c57, transparent);
+}
+
+.title-1 {
+    display: block;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 2rem;
+}
+.title-1::after {
+    content: "";
+    position: absolute;
+    top: 1rem;
+    left: 0;
+    width: 20%;
+    height: 2px;
+    background: linear-gradient(-45deg, #a67c57, transparent);
+}
+
+.py-1 {
+    padding: 1rem 0;
+}
+.sec-3{
+    width: 80vw;
+    margin: 2rem auto !important;
+}
+
+.sec-4{
+    text-align: center;
+    padding: 2rem 0;
+}
+.flex-a {
+    display: flex;
+    justify-content: space-around;
+}
+.sec-4>div{
+    background-color: #F5F7FF;
+}
+.sec-4 i{
+    font-size: 7rem;
+    color: #34495E;
+}
+
+.box-12{
+    padding: 1rem;
+}
+
+
 .banner{
 	width: 100vw;
 	height: 100vh;
 	z-index: 1;
 }
 .banner-section{
-	height: 100vh;
+	height: 111vh;
 	width: 100vw;
-	background-image: url("../images/banner.png");
+	background-image: url("../images/Super-2.png");
 	background-size: cover;
 	background-position: center;
 }
@@ -119,7 +181,7 @@
 
 /* Footer */
 
-footer{
+.footer{
 	width: 100vw;
 	display: flex;
 	justify-content: space-between;
@@ -145,4 +207,12 @@ footer .contact{
 .contact-box{
 font-family: 'Times New Roman', Times, serif;
 	
+}
+
+
+.all-iteminone{
+	
+	display: flex;
+  justify-content: center;
+  align-items: center;
 }

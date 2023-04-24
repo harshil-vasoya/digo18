@@ -48,6 +48,7 @@ try {
 				<link rel="stylesheet" href="css/details.css" />
 				<link rel="stylesheet" href="css/bash.css">
 				<link rel="stylesheet" href="css/mediaquery.css" />
+				<link rel="stylesheet" href="css/common.css" />
 			</head>
 			<body>
 			<a class="back-button" href="product.html">&laquo; Previous</a>
@@ -58,8 +59,11 @@ try {
 			<section class="container">
 				<div class="single-product" style="margin-top: 100px;">
 				  <div class="d-flex d-content-between row details-mobile-view">
-					<div class="imgbg d-flex d-content-center ">
-					  <img src="${element.dataset.url+"/"+dataObj.img_name}" alt="product-image" style="border: 2px solid black;">
+					<div class="imgbg d-flex d-content-center " style="text-align:center;">
+					 <a href=${element.dataset.url+"/"+dataObj.img_name}>
+					 <img src="${element.dataset.url+"/"+dataObj.img_name}" alt="product-image" style="border: 2px solid black;">
+					 </a>
+					  
 					</div>
 					<div >
 					  <p class="newdrgs">${dataObj.info}</p>
@@ -140,21 +144,22 @@ for (var i = 0; i < nav_bar.length; i++) {
 /* Footer section */
 for (var i = 0; i < footer.length; i++) {
 	footer[i].innerHTML = `<footer>
-	<div> 
-		<div class="brand-name dark">
-			<a href="index.html">Shivam</a>
+	<div class="footer-media footer"> 
+		<div>
+				<div class="brand-name dark">
+					<a href="index.html">Shivam</a>
+				</div>
+				<div class="brand-line mb-1">
+				<a href="index.html"><b>I N D U S T R I E S</b></a>
+					<hr>
+				</div>
 		</div>
-		<div class="brand-line">
-		<a href="index.html"><b>I N D U S T R I E S</b></a>
-			<hr>
+		<div class="contact-box">
+			<div class="contact"> <a class="block" href="tel:9429796977"> <span class="fa-solid fa-phone mt-2"></span>&nbsp;+91
+			9429796977</a></i></div>
+			<div class="contact"><a class="block" href="mailto:superwax9@gmail.com"> <span
+			class="fa-solid fa-envelope mt-1"></span>&nbsp;&nbsp;superwax9@gmail.com </a></div>
 		</div>
-	</div>
-	<div class="contact-box">
-		<div class="contact"> <a class="block" href="tel:9429796977"> <span class="fa-solid fa-phone mt-2"></span>&nbsp;+91
-		9429796977</a></i></div>
-		<div class="contact"><a class="block" href="mailto:superwax9@gmail.com"> <span
-		class="fa-solid fa-envelope mt-1"></span>&nbsp;&nbsp;superwax9@gmail.com </a></i></div>
-		<div class="contact">
 	</div>
 </footer>`
 };
