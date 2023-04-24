@@ -136,8 +136,7 @@ for (var i = 0; i < nav_bar.length; i++) {
 	<div class="navigation-bar-mobile">
 		<a href="index.html"  onclick="go_back()">Home</a>
 		<a href="product.html" onclick="go_back()">Products</a>
-
-		<a href="Contactus.html"   onclick="go_back()">Contact</a>
+		<a href="ContactUs.html"  onclick="go_back()">Contact</a>
 	</div>`
 };
 
